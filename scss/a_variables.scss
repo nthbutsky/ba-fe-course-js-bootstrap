@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,700,800');
+
+@mixin transition {
+	transition: all .3s ease;
+}
+
+@mixin btn {
+
+	@include transition;
+
+	&:hover {
+		background-color: $green;
+		@include transition;
+	}
+	&:focus {
+		outline:none;
+	}
+	&:active {
+
+	}
+}
+
+@mixin ref {
+	text-decoration: none;
+	@include transition;
+
+	&:hover {
+		color: $green;
+		text-decoration: none;
+		@include transition;
+	}
+}

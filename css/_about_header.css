@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans");
+.about_header {
+  background-color: #ccc;
+  background: url(../images/about-header-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .about_header__brand {
+    font-family: 'Montserrat', sans-serif; }

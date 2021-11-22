@@ -1,0 +1,30 @@
+@import "a_variables.scss";
+
+.header {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	&--about {
+		background-image: url(../images/about-header-bg.jpg);
+	}
+
+	&--index {
+		background-image: url(../images/index-header-bg.jpg);
+	}
+
+	&__brand {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+
+
+}
+
+// @media screen and (min-width: 768px) {
+	.h-menu, .h-menu.collapsing{
+		position: absolute;
+		top: 50px;
+		right: 20px;
+	}
+// }

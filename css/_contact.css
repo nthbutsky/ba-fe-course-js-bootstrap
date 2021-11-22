@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,700,800");
+.about-icon-cont {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .about-icon-cont img {
+    width: 80%;
+    -webkit-filter: brightness(3);
+    filter: brightness(3); }
+
+.bar__row {
+  background-color: #efeff0; }
+
+.bar__txt {
+  line-height: 4;
+  font-style: italic; }
+
+.clients__cl {
+  height: 95px; }
+
+.testimonials__photo {
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center; }
+
+.testimonials__name {
+  font-weight: bold; }

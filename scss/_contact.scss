@@ -1,0 +1,8 @@
+@import "a_variables.scss";
+
+.contact-input {
+	background-color: #fefcf9;
+	&:focus {
+		background-color: #fefcf9;
+	}
+}
